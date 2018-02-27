@@ -246,3 +246,6 @@ spring获取bean工具类
 
     TimedTaskService 定时任务服务类就是获取前端请求对数据库的操作,需注入JobManage类来对定时任务进行管理  
 
+页面效果
+
+![cmd-markdown-logo](https://github.com/huangdgithub/note/blob/master/img/1015485551.png)
