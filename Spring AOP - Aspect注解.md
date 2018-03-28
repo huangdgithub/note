@@ -1,4 +1,4 @@
-# Spring AOP支持的Aspect 注解分析
+# Spring AOP支持的Aspectj 注解分析
 
 # Aop基本概念
 ### 连接点（Joinpoint）：
