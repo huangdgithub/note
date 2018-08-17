@@ -59,16 +59,16 @@ Zookeep启动正常，报错：Error contacting service. It is probably not runn
 > * 端口（clientPort）可能被占用，可以使用命令查看（netstat -anp | grep xxxx）
 > * dataDir或者dataLogDir 对应目录未生成，或者路径写错
 > * tmp目录下myid文件写错，不同的节点上面的myid里的数字不同，分别设置：0,1,2等等。
-> * 防火墙状态
-        service iptables stop //关闭防火墙
-        service iptables status //查看状态
-        chkconfig iptables off //禁用防火墙
-    如果是ubuntu请使用如下命令：
-        查看防火墙状态：ufw status
-        关闭防火墙：ufw disable
-    Centos请使用如下命令：
-        查看防火墙状态：firewall-cmd --state
-        关闭防火墙：systemctl stop firewalld.service
+> * 防火墙状态  
+        1：service iptables stop //关闭防火墙    
+        2：service iptables status //查看状态  
+        3：chkconfig iptables off //禁用防火墙  
+    如果是ubuntu请使用如下命令：  
+        1：查看防火墙状态：ufw status   
+        2：关闭防火墙：ufw disable   
+    Centos请使用如下命令：   
+        1：查看防火墙状态：firewall-cmd --state   
+        2：关闭防火墙：systemctl stop firewalld.service   
 
 
 
